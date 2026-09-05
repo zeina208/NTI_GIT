@@ -1,6 +1,6 @@
 #include "../Headers/DIO.h"
 #include "../Headers/Keypad.h"
-
+#include <avr/delay.h>
 
 u8 arr[4][4] = {
 {7,8,9,'C'},
@@ -27,7 +27,7 @@ void Keypad_init()
 }
 
 
-u8 Keypad_press()
+s8 Keypad_press()
 {
 	
 	u8 i=0;
@@ -43,6 +43,8 @@ u8 Keypad_press()
 		{
 			if(DIO_u8GetPinValue(PORTC,i)==0)
 			{
+				_delay_ms(20);
+				while(DIO_u8GetPinValue(PORTC, i) == 0);
 				return arr[i][(j-4)];
 				i =0;
 				j=4;

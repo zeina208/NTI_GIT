@@ -124,7 +124,13 @@
     <Compile Include="Headers\Bit_Maths.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="Headers\calc.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="Headers\DIO.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Headers\Keypad.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Headers\Std_Types.h">
@@ -133,7 +139,13 @@
     <Compile Include="labs\main.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="Source\calc.c">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="Source\DIO.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Source\Keypad.c">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>

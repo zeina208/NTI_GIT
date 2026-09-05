@@ -4,11 +4,9 @@
 
 labs\main.c
 
-Source\7-seg.c
+Source\calc.c
 
 Source\DIO.c
 
 Source\Keypad.c
-
-Source\LCD.c
 
