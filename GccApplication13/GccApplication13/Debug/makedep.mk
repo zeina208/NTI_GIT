@@ -4,9 +4,7 @@
 
 labs\main.c
 
-Source\calc.c
-
 Source\DIO.c
 
-Source\Keypad.c
+Source\StepperMotor.c
 

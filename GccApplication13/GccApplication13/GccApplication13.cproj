@@ -124,28 +124,22 @@
     <Compile Include="Headers\Bit_Maths.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="Headers\calc.h">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="Headers\DIO.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Headers\Keypad.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Headers\Std_Types.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="labs\main.c">
+    <Compile Include="Headers\StepperMotor.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="Source\calc.c">
+    <Compile Include="labs\main.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Source\DIO.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="Source\Keypad.c">
+    <Compile Include="Source\StepperMotor.c">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
@@ -153,6 +147,7 @@
     <Folder Include="Headers\" />
     <Folder Include="labs\" />
     <Folder Include="labs\lec8\" />
+    <Folder Include="labs\lec8\lab1\" />
     <Folder Include="labs\lec8\lab2\" />
     <Folder Include="Source\" />
   </ItemGroup>
